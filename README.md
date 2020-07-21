@@ -49,8 +49,10 @@ curl -X POST \
 ## Reflection
 This is my first time working with Flask and using Python for anything server related. I apologize for the horrendous code. 
 
-Since I worked on this assessment for an elapsed time of approximately 24 hours, I can safetly say that I would change just about everything if I had more time. If something worked, I felt it as is.
+Since I worked on this assessment for an elapsed time of approximately 24 hours, I can safetly say that I would change just about everything if I had more time. If something worked, I left it as is.
 
 If this were an actual production application, I would communicate with the product owner regarding specific front and back-end requirements. I would make an interface of some sort for GET, POST, and user login. I would also verify that all parts of the GET, POST, and user login were inputted.
 
 The whole /mood route is one big if else statement with multiple levels of if else statements inside. Rather than comparing password string I would've hashed the passwords for security. I quickly realized when implementing a type of user login I should've made User objects and put them in a database instead of putting all the information in a local JSON body.
+
+To accommodate for more users and data I would use a database like Postgres or MySQL. There would be more requirements for usernames and passwords like using an email to make new account.
