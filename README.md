@@ -2,17 +2,18 @@
 "Mood Tracker" for NeuroFlow Co-op Assessment.
 
 ## Getting Started
+The instructions were written for MacOS.
 ### Prerequisites
-This project needs Python, Flask 1.1.x, and Werkzeug 0.16.1
+This project needs Python, Flask 1.1.x, and Werkzeug 0.16.1.
 
 If needed:
-[Install Python](https://www.python.org/downloads/)
-[Install pip](https://pip.pypa.io/en/stable/installing/)
+* [Install Python](https://www.python.org/downloads/)
+* [Install pip](https://pip.pypa.io/en/stable/installing/)
 ```
 pip3 install -r requirements.txt
 ```
 ### Download
-Download the mood.py file by going to https://raw.githubusercontent.com/SnowmanStudios/NeuroFlowAPI/master/mood.py and save the page as mood.py or in the terminal the follow where you want the file to go:
+Download the mood.py file by going to https://raw.githubusercontent.com/SnowmanStudios/NeuroFlowAPI/master/mood.py and save the page as mood.py or in the terminal paste the follow curl command in the directory where you want the file to go:
 ```
 curl -LJO https://raw.githubusercontent.com/SnowmanStudios/NeuroFlowAPI/master/mood.py
 ```
